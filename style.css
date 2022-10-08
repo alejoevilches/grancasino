@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display:flex;
+    background-color: black;
+}
+nav{
+    height:12vh;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    padding:0 0.5vw;
+    
+}
+
+nav img{
+    height: 10vh;
+    width: 100px;
+    padding:10px 20px;
+    object-fit: cover;
+}
+
+.links{
+    margin:0 10px;
+    font-family: "Rock";
+    font-size: small;
+    text-decoration: none;
+    color:white;
+}
+
+@font-face {
+    font-family: "Rock";
+    src: url(/fonts/Rock_Salt/RockSalt-Regular.ttf);
+}
+
+--fa-primary-color{
+    color:white;
+}

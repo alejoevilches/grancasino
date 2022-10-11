@@ -1,0 +1,19 @@
+{
+  "name": "grancasino",
+  "version": "1.0.0",
+  "description": "This is the official website of the local rock band Gran Casino, a rock band from Quilmes, Buenos Aires. This project is the second project of the freeCodeCamp´s Responsive Web Design Certification. It´s made with pure CSS, it can be realized using your favourite library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejoevilches/grancasino.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejoevilches/grancasino/issues"
+  },
+  "homepage": "https://github.com/alejoevilches/grancasino#readme"
+}

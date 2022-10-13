@@ -11,6 +11,8 @@ header{
     display:flex;
     background-color: black;
     justify-content: space-between;
+    position:sticky;
+    top:0
 }
 nav{
     height:12vh;
@@ -86,6 +88,7 @@ video{
 .biografia{
     background-image: url(/img/background-bio.jpg);
     margin:auto;
+    background-repeat:round;
 }
 
 .biografia p{
@@ -97,20 +100,28 @@ video{
 }
 
 .bio{
-    width:50vw;
+    width:80vw;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bio p{
+    font-size: 20px;
 }
 
 .biografia_img{
     width:40vw;
-    height:30vw;
+    min-width: 500px;;
+    height:50vh;
     object-fit: cover;
-    position:absolute;
-    left:54vw;
+
 }
 
 .container_biografia{
     display:flex;
-    align-items: center;
+    align-items:flex-start;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -139,14 +150,14 @@ video{
 .shows{
     background-image: url(/img/art4.jpg);
     background-size: cover;
-    height:58vh;
+    height:max-content;
     color:white;
     margin:auto;
     font-family: "Arial";
 }
 
 .songkick-widget{
-    width:60vw;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.723);
 }
 
@@ -155,7 +166,8 @@ video{
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap:20px;
+    height:max-content;
 }
 
 .player{
@@ -163,3 +175,33 @@ video{
     align-items: center;
 }
 
+.title-songs{
+    padding-top:10px;
+}
+
+footer{
+    display:flex;
+    padding-top:20px;
+    flex-direction: column;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    background-color: black;
+    color:gray;
+    font-family:"IBM";
+}
+
+.author{
+    display:flex;
+    justify-content: flex-end;
+    color:gray;
+    background-color: black;
+    padding:10px;
+    font-family:monospace
+}
+
+.author_link{
+    text-decoration: none;
+    color:inherit;
+}

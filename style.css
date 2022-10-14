@@ -113,7 +113,7 @@ video{
 
 .biografia_img{
     width:40vw;
-    min-width: 500px;;
+    min-width: 500px;
     height:50vh;
     object-fit: cover;
 
@@ -206,4 +206,24 @@ footer{
 .author_link{
     text-decoration: none;
     color:inherit;
+}
+
+.responsive_player{
+    display:none;
+}
+
+@media screen and (max-width:647px) {
+    .biografia_img{
+        display:none;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .responsive_player{
+        display:block;
+    }
+    
+    .player{
+        display:none;
+    }
 }

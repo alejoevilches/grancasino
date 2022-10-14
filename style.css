@@ -15,17 +15,18 @@ header{
     top:0
 }
 nav{
-    height:12vh;
+    min-height: 10vh;
+    width:100%;
     background-color: black;
     display:flex;
     align-items: center;
-    padding:0 0.5vw;
+    padding:0;
     
 }
 
 nav img{
-    height: 7vh;
-    width: 100px;
+    height: 9vh;
+    width: 130px;
     padding:10px 20px;
     object-fit: cover;
 }
@@ -33,9 +34,9 @@ nav img{
 .links{
     margin:0 10px;
     font-family: "Rock";
-    font-size: small;
+    font-size: small !important;
     text-decoration: none;
-    color:white;
+    color:white !important;
 }
 
 @font-face {
@@ -198,7 +199,8 @@ footer{
     color:gray;
     background-color: black;
     padding:10px;
-    font-family:monospace
+    font-family:monospace;
+    font-size: 12px;
 }
 
 .author_link{

@@ -82,7 +82,7 @@ video{
     font-family: "Rock";
     font-size:xx-large;
     color:white;
-    padding-top:2vh;
+    padding-top:20px;
 }
 
 .biografia{
@@ -239,7 +239,7 @@ footer{
     }
 
     .title{
-        font-size:x-large;
+        font-size:large;
     }
 
     .bio p{

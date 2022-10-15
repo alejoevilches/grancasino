@@ -212,13 +212,26 @@ footer{
     display:none;
 }
 
-@media screen and (max-width:647px) {
+.social_responsive{
+    display:none; 
+}
+
+@media screen and (max-width:768px) {
     .biografia_img{
         display:none;
     }
 
     .navbar-nav{
         gap:12px;
+    }
+
+    .social{
+        display:none;
+    }
+
+    .social_responsive{
+        display:flex;
+        align-items: center;   
     }
 }
 

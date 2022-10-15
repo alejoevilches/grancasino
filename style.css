@@ -216,6 +216,10 @@ footer{
     display:none; 
 }
 
+.video_responsive{
+    display:none;
+}
+
 @media screen and (max-width:768px) {
     .biografia_img{
         display:none;
@@ -240,6 +244,14 @@ footer{
 
     .bio p{
         font-size: medium;
+    }
+
+    .video{
+        display:none;
+    }
+
+    .video_responsive{
+        display:block;
     }
 }
 

@@ -233,6 +233,14 @@ footer{
         display:flex;
         align-items: center;   
     }
+
+    .title{
+        font-size:x-large;
+    }
+
+    .bio p{
+        font-size: medium;
+    }
 }
 
 @media screen and (max-width:1000px) {
